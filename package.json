@@ -1,0 +1,43 @@
+{
+  "name": "ut-codec-ebcdic",
+  "version": "1.0.0",
+  "description": "ascii - ebcdic conversion module",
+  "main": "index.js",
+  "devDependencies": {
+    "tap": "12.5.3",
+    "ut-tools": "^6.23.4"
+  },
+  "scripts": {
+    "lint": "ut-lint .",
+    "release": "ut-release",
+    "changelog": "ut-changelog",
+    "check": "ut-check",
+    "cover": "ut-cover-parallel",
+    "lint-js": "ut-lint-js .",
+    "postpublish": "ut-postpublish",
+    "postversion": "ut-postversion",
+    "precommit": "ut-precommit",
+    "prepublish": "ut-prepublish",
+    "prepush": "ut-prepush",
+    "pretest": "ut-pretest",
+    "precover": "ut-precover",
+    "preversion": "ut-preversion",
+    "test": "ut-test-parallel",
+    "version": "ut-version",
+    "jenkins": "ut-jenkins",
+    "gitlab": "ut-gitlab"
+  },
+  "keywords": [
+    "ascii",
+    "ebcdic",
+    "conversion",
+    "codec",
+    "ut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:softwaregroup-bg/ut-codec-ebcdic.git"
+  },
+  "author": "kristiyan.todorov",
+  "license": "Apache-2.0"
+}
