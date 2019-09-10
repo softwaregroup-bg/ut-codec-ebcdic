@@ -13,3 +13,5 @@ ASCII <-> EBCDIC conversion
 * encode - convert ASCII string to EBCDIC
 
 * decode - convert EBCDIC string to ASCII
+
+-----
